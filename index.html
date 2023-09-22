@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Shopify</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/app.css" rel="stylesheet" />
+    <link href="css/utility.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/5e17bcebe0.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar max-width0">
+      <div class="menu">
+        <span class="iconmenu">
+          <i class="fa-solid fa-bars"></i>
+        </span>
+      </div>
+
+      <div class="title">
+        <span><h2>Shopify</h2></span>
+      </div>
+      <div class="cart">
+        <span class="carticon">
+          <i class="fa-solid fa-cart-shopping" id="carticon"></i>
+        </span>
+        <div class="cart-items">0</div>
+      </div>
+    </nav>
+    <header class="welcome">
+      <div class="welcome-container m-auto">
+        <div class="h1">
+          <span> <h2>Welcome to Shopify</h2></span>
+          <a href="#mydiv"><button class="btn">Shop now</button></a>
+        </div>
+      </div>
+    </header>
+    <section class="products" id="mydiv">
+      <div class="heading m-auto">
+        <span><h2>Our Products</h2></span>
+      </div>
+      <div class="products-center m-auto"></div>
+    </section>
+    <div class="cart-overlay">
+      <div class="cartt">
+        <div class="closebtn">
+          <span
+            ><i class="fa-regular fa-rectangle-xmark fa-xl" id="close"></i
+          ></span>
+        </div>
+        <div class="yourcart">
+          <h2 id="urcart">your cart</h2>
+        </div>
+        <div class="cart-content">
+          <!-- <div class="imgcontainer">
+        <img src="${item.urll}">
+        </div>
+     <div class="items">
+     <h3 id="carth3">${item.title}</h3> 
+     <h4 id="carth4">$ ${item.price}</h4> 
+     
+     <div class="divv"> <span id="remove" data-id=${item.id}>remove</span></div>
+     
+     </div>
+     
+     <div class="increase">
+     <i class="fa-solid fa-plus" data-id=${item.id}></i>
+     <span>${item.amount}</span>
+     <i class="fa-solid fa-minus" data-id=${item.id}></i>
+     </div> -->
+        </div>
+        <div class="cart-footer">
+          <h3 id="total">your total is $ 4</h3>
+          <button class="clearall">clearall</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
